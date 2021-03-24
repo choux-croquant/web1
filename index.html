@@ -45,10 +45,38 @@ consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor
   ut lectus. Ipsum faucibus vitae aliquet nec
 </p>
 <!--이미지 태그-->
-<img src="vegan.jpg" width="450">
+  <img src="vegan.jpg" width="100%">
 <p>
+<p>
+<!--동영상태그-->
+<div style="position: relative; height: 0px; padding-bottom: 56.25%; text-align: left;">
+  <iframe style="position: absolute"; width="100%" height="100%" src="https://www.youtube.com/embed/LVLHprUg-PM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</p>
 <!--하이 링크를 거는 태그-->
 <a href="https://www.w3.org/TR/html52/" target="_blank" title="html5 specification">Hyper Text Markup Language</a>
+</p>
+<!--disqus에서 제공하는 댓글기능 소스코드-->
+<p>
+  <div id="disqus_thread"></div>
+  <script>
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://choux-1.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </p>
 </body>
 </html>
